@@ -47,6 +47,9 @@ GIU Student Marketplace is a web application where university students can buy a
 
 ## 5. Data model
 
+
+## 5. Data model
+
 ### User
 
 ```javascript
@@ -70,6 +73,8 @@ const listingSchema = new mongoose.Schema({
     required: true
   }
 }, { timestamps: true });
+```
+
 ```
 
 ## 6. Run it locally
