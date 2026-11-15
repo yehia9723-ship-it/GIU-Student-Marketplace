@@ -49,7 +49,7 @@ GIU Student Marketplace is a web application where university students can buy a
 
 ### User
 
-```js
+```javascript
 const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true },
@@ -59,7 +59,7 @@ const userSchema = new mongoose.Schema({
 
 ### Listing
 
-```js
+```javascript
 const listingSchema = new mongoose.Schema({
   title: { type: String, required: true },
   description: { type: String, required: true },
@@ -99,4 +99,4 @@ npm install
 npm run dev
 ```
 
-The app runs on [the address `npm run dev` prints, e.g. http://localhost:5173].
+The app runs on [the address `npm run dev` prints, e.g. [http://localhost:5173](http://localhost:5173)].
